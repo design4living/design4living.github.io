@@ -1,0 +1,23 @@
+body {
+	background-color: yellow;
+}
+h1, h2 {
+	color: black;
+	font-family: helvetica;
+	font-size: 16px;
+}	
+h1 {
+	text-align: center;
+}
+h2 {
+	text-align: 60px;
+}
+p {
+	color: maroon;
+	font-family: helvetica;
+	font-size: 14px;
+	text-align: 90px;
+}
+
+	
+
