@@ -18,6 +18,20 @@ p {
 	font-size: 14px;
 	text-align: 90px;
 }
-
+ol {
+    counter-reset: item;
+}
+ol li {
+    display: block;
+    position: relative;
+    color: maroon;
+}
+ol li:before {
+    content: counters(item, ".")".";
+    counter-increment: item;
+    position: absolute;
+    margin-right: 100%;
+    right: 10px; /* space between number and text */
+}
 	
 
