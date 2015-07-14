@@ -1,0 +1,80 @@
+body {
+	background-color: rgb(51, 102, 0);
+	text-align: center;
+}
+	#header {
+		background-color: #3D1F00;
+		color: #CC9900;
+		font-size: 30px;
+		font-family: "helvetica", serif;
+		text-transform: uppercase;
+		font-style: normal;
+		font-weight: 900;
+		text-align: center;
+		padding: 10px;
+	}
+	hr {
+		display: block;
+    	margin-top: 0.5em;
+    	margin-bottom: 0.5em;
+    	margin-left: auto;
+    	margin-right: auto;
+    	border-style: none;
+    	border-width: 2px;
+	} 
+	.displayed {
+		color: rgb(71, 36, 0);
+		margin-left: auto;
+		margin-right: auto;
+		padding: 5px;
+		border: 1px solid #CC9900;
+		background-color: #CC9900;
+	}
+	#slogan {
+		font-size: 20px;
+		font-family: "helvetica", serif;
+		font-style: italic;
+		font-weight: 500;
+		color:#CC9900;
+		text-align: center;
+		line-height: 150%;
+	}
+	#list {
+		list-style-type: none;
+		background-color: #CC9900;
+		line-height: 190%;
+		color: #3D1F00;
+		font-size:18px;
+		font-family: "arial", sans-serif;
+		font-weight: normal;
+		text-align: left;
+		text-transform: lowercase;
+		float: left;
+		height: 400px;
+		width: 300px;
+		padding: 5px;
+	}
+		#contact {
+		background-color: rgba(71, 36, 0, .4);
+		color: #CC9900;
+		text-decoration: underline;
+		font-size: 19px;
+		margin-top: 20px;
+		font-weight: bold;
+		padding: 10px;
+		}
+	#description {
+		background-color: #3D1F00;
+		font-size: 18px;
+		font-style: none;
+		font-weight: 400;
+		font-family: "arial", sans-serif;
+		line-height: 190%;
+		color: #CC9900;
+		text-align: left;
+		width: 920px;
+		height: 400px;
+		float: left;
+		padding: 15px;
+	}
+	
