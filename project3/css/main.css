@@ -41,11 +41,9 @@ hr {
 	font-weight: 500;
 	color:#CC9900;
 	text-align: center;
-	line-height: 150%;
 }
 #list {
 	background-color: #CC9900;
-	line-height: 190%;
 	color: #3D1F00;
 	font-size:18px;
 	text-align: left;
@@ -70,7 +68,7 @@ hr {
 	font-size: 18px;
 	float: left;
 	height: 400px;
-	line-height: 190%;
+	line-height: 150%;
 	padding: 15px;
 	text-align: left;
 	width: 920px;
