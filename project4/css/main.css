@@ -1,0 +1,116 @@
+@import url(http://fonts.googleapis.com/css?family=Belleza);
+@import url(http://fonts.googleapis.com/css?family=Lustria);
+@import url(http://fonts.googleapis.com/css?family=Cabin:600);
+@import url(http://fonts.googleapis.com/css?family=Anaheim);
+* { margin:0; 
+    padding:0; 
+    box-sizing: border-box;
+}
+body{
+}
+.banner {
+    background: src(images/bannerresized.jpg) no-repeat center center fixed;
+    background-size: cover;
+    padding: 1em 0;
+}	
+h1 {
+	color: #244700;
+	font-size: 3em;
+	font-family: 'Lustria', serif;
+    margin: auto;
+    padding: 1em;
+    text-align: center;
+}
+h2, p {
+    color: rgb(41, 20, 0);
+    font-family: 'Anaheim', sans-serif;
+}
+h2{
+    font-size: 1.5em;
+}
+p{
+    font-size: 1em;
+}
+a{
+    text-decoration: none;
+    font-family: 'Cabin', sans-serif;
+    text-transform: uppercase;
+}
+#slogan {
+	color: #3A5919;
+	font-size: 1.5em;
+	font-style: italic;
+    margin: auto;
+    margin-top: 10px;
+    padding: 0.5em;
+    text-align: center;
+}
+#navbar {
+    background-color: white;
+    top: 60px;
+    margin: auto;
+    text-align: center;
+    width: 1024px;
+} 
+.navigationbar{
+    color:#005C00;
+    display: inline;
+    font-family: 'Cabin', sans-serif;
+    font-size: 1em;
+    font-style: none;
+    font-weight: 600;
+    left:0px;
+    text-transform: uppercase;
+    text-decoration: none;
+    
+}
+#imagesnavbar {
+    top: 160px;
+    margin: auto;
+    padding:1.5em;
+}
+#description {
+    background-color: rgb(41, 82, 0);
+    color: #291400;
+    font-family: 'Anaheim', sans-serif;
+}
+.envolvente {
+    width: 1024px;
+    margin:auto;
+    padding:5em 0;
+}
+#envolver-columna {
+    margin:2em 0 0;
+}
+.columna{
+    display:inline-block;
+}
+.columna + .columna{
+    margin: 0 0 0 7.25em;
+}
+
+#currentinfoimage {
+    float: left;
+}
+#destitle{
+    font-weight: bold;
+    float: left;
+}
+hr {
+    border:none;
+    height:.2em;
+    width:3em;
+    background-color: #291400;
+    margin:0 0 1.5em;
+}
+#about {
+    color: ;
+    font-size: 1.5em;
+    font-weight: normal;
+    float: left;
+    height: 400px;
+    line-height: 1.5em;
+    padding: 1em;
+    text-align: left;
+    width: 920px;
+}
