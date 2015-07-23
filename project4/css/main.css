@@ -7,12 +7,12 @@
 }
 body{
 }
-.banner {
+#banner {
+    background-image: url("bannerresized.jpg") no-repeat center center fixed;
     background-size: cover;
     margin-top: 0;
-    margin-left: auto;
     margin-right: auto;
-    padding: 5px;
+    padding: 10em 0;
 }	
 h1 {
 	color: #244700;
@@ -83,28 +83,32 @@ a{
     margin:auto;
     padding:5em 0;
 }
+.columna1 + .columna2 {
+    margin:0 0 0 7.25em;
+}
 .columna1 {
     float: left;
-    width: 300px;
+    width: 600px;
+    margin-left: 2em;
 }
 .columna2{
     display:inline-block;
     background-color: rgba(255, 255, 255, 0.5);
-    width: 920px;
+    width: 500px;
 }
 .currentimage {
     text-align: left;
     float: left;
     height: 400px;
-    width: 300px;
-    padding: 5px;
+    width: 600px;
+    padding: .5em;
 }
 #destitle {
     color: #291400;
     font-weight: bold;
     font-size: 2em;
     margin:0 0 1em;
-    padding: 1em;
+    padding: 0.5em;
 }
 hr {
     background-color: #291400;
@@ -119,8 +123,8 @@ hr {
     float: left;
     height: 400px;
     line-height: 1.618em;
-    margin: 0 0 1.5em;
-    padding: 2em;
+    margin: 0 0 1em;
+    padding: 0.5em;
     text-align: left;
-    width: 600px;
+    width: 500px;
 }
