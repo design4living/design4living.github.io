@@ -9,7 +9,7 @@
 body{
 }
 .banner {
-    background: src(images/bannerresized.jpg) no-repeat center center fixed;
+    background: url(bannerresized.jpg) no-repeat center center fixed;
     background-size: cover;
     padding: 1em 0;
 }	
@@ -32,9 +32,10 @@ p{
     font-size: 1em;
 }
 a{
-    text-decoration: none;
+    color: #244700;
     font-family: 'Cabin', sans-serif;
     text-transform: uppercase;
+    text-decoration: none;
 }
 #slogan {
 	color: #3A5919;
@@ -82,35 +83,42 @@ a{
 #envolver-columna {
     margin:2em 0 0;
 }
-.columna{
-    display:inline-block;
+.columna1 {
+    float: left;
 }
-.columna + .columna{
+.columna2{
+    display:inline-block;
+    background-color: rgba(255, 255, 255, 0.5);
+}
+.columna1 + .columna2 {
     margin: 0 0 0 7.25em;
 }
-
 #currentinfoimage {
     float: left;
 }
 #destitle{
+    color: #291400;
     font-weight: bold;
-    float: left;
+    margin:0 0 1.5em;
+    padding: 1em;
 }
 hr {
     border:none;
     height:.2em;
-    width:3em;
+    width:7em;
     background-color: #291400;
     margin:0 0 1.5em;
+    padding: 1em;
 }
 #about {
-    color: ;
+    color: #291400;
     font-size: 1.5em;
     font-weight: normal;
     float: left;
     height: 400px;
     line-height: 1.5em;
+    margin: 0 0 1.5em;
     padding: 1em;
     text-align: left;
-    width: 920px;
+    width: 700px;
 }
