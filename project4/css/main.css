@@ -8,9 +8,11 @@
 body{
 }
 .banner {
-    background: url("images/bannerresized.jpg") no-repeat center center fixed;
     background-size: cover;
-    padding: 1em 0;
+    margin-top: 0;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 5px;
 }	
 h1 {
 	color: #244700;
@@ -35,6 +37,7 @@ a{
     font-family: 'Cabin', sans-serif;
     text-transform: uppercase;
     text-decoration: none;
+    margin-right: 1em;
 }
 #slogan {
 	color: #3A5919;
@@ -71,6 +74,7 @@ a{
 }
 #description {
     background-color: rgb(41, 82, 0);
+    background: cover;
     color: #291400;
     font-family: 'Anaheim', sans-serif;
 }
@@ -79,56 +83,44 @@ a{
     margin:auto;
     padding:5em 0;
 }
-#envolver-columna {
-    margin:2em 0 0;
-}
 .columna1 {
     float: left;
+    width: 300px;
 }
 .columna2{
     display:inline-block;
     background-color: rgba(255, 255, 255, 0.5);
+    width: 920px;
 }
-.columna1 + .columna2 {
-    margin: 0 0 0 7.25em;
-}
-#currentinfoimage {
+.currentimage {
+    text-align: left;
     float: left;
-}
-img {
-    bottom: 0px;
-    display: inline-block;
-    float: left;
-    left: 0px;
-    margin: auto;
-    position: absolute;
-    right: 0px;
-    text-align: center;
-    top: 0px;
+    height: 400px;
+    width: 300px;
+    padding: 5px;
 }
 #destitle {
     color: #291400;
     font-weight: bold;
-    margin:0 0 1.5em;
+    font-size: 2em;
+    margin:0 0 1em;
     padding: 1em;
 }
 hr {
-    border:none;
-    height:.2em;
-    width:5em;
     background-color: #291400;
-    margin:0 0 1.5em;
-    padding: 1em;
+    border:none;
+    height:.3em;
+    width:18em;
+    margin:0 0 1em;
 }
 #about {
     color: #291400;
     font-size: 1.5em;
-    font-weight: normal;
     float: left;
     height: 400px;
-    line-height: 1.5em;
+    line-height: 1.618em;
     margin: 0 0 1.5em;
-    padding: 1em;
+    padding: 2em;
     text-align: left;
-    width: 700px;
+    width: 600px;
 }
