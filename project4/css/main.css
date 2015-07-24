@@ -8,10 +8,10 @@
 body{
 }
 #banner {
-    background-image: url(https://imgur.com/L1RnyB3) no-repeat center center fixed;
+    background: url( https://i.imgur.com/L1RnyB3.jpg ) no-repeat center;
     background-size: cover;
     margin-top: 0;
-    margin-right: auto;
+    margin: auto;
     padding: 10em 0;
 }	
 h1 {
