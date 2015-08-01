@@ -1,0 +1,108 @@
+@import url(http://fonts.googleapis.com/css?family=Lora:700);
+@import url(http://fonts.googleapis.com/css?family=Raleway:500,700);
+@import url(http://fonts.googleapis.com/css?family=Lato:400,700);
+* { margin:0; 
+    padding:0; 
+    box-sizing: border-box;
+}
+body {
+
+}
+header {
+	background: url() no-repeat center;
+	background-size: cover;
+	margin-top: .5em;
+	margin: auto;
+	padding: 5em 0;
+}
+#logo {
+    margin: auto;
+    text-align: center;
+}
+img {
+    margin: auto;
+    text-align: center;
+} 
+.slogan {
+	color: rgb(41, 20, 0);
+    font-family: 'Lora', serif;
+    font-size: 1em;
+    font-style: italic;
+    font-weight: 400;
+    margin: 0.618em 0.618em;
+    padding: 0.618em 0.618em;
+    text-align: center;
+}
+span {
+    color: rgb();
+    font-family: 'Lora', serif;;
+    font-size: 1em;
+    font-style: none;
+    font-weight: 400;
+    text-align: right;
+}
+
+a{
+    color: white;
+    font-family: 'Lato', sans-serif;;
+    font-size: 1.5em;
+    font-weight: 400;
+    text-transform: lowercase;
+    text-decoration: none;
+    padding: 2em;
+}
+
+#navbar {
+    text-align: center;
+    margin: auto;
+    background-size: cover;
+}
+nav {
+	background: #8A00B8;
+    background-size: cover;
+    color: white;
+    display: inline;
+    font-size: 1em;
+    font-style: none;
+    font-weight: 600;
+    left:0px;
+    text-align: center;
+    
+}
+#gallery {
+    padding: 5em 0;
+}
+.wrap {
+    width: 700px;
+    margin: auto;
+    padding: 5em 0;
+}
+
+}
+.column {
+    display: inline-block;
+    width: 200px;
+}
+#column-wrap {
+    margin:3em 0 0;
+}
+.column + .column{
+    margin:0 0 0 7.25em;
+}
+ul {
+    list-style: none;
+}
+li{
+    padding: .2em 0;
+    width: 200px;
+}
+footer {
+	background: #fff;
+    padding: 5em 0;
+}
+h6 {
+	text-align: center;
+	color: rgba(0 0 0 0.5);
+	font-family: 'Lato', sans-serif;
+
+}
