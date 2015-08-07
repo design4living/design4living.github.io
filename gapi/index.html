@@ -2,63 +2,46 @@
 <html lang="es">
 	<head>
 		<title>GAPI</title>
+		<link rel="stylesheet" type="text/css" href="css/reset.css">
 		<link rel="stylesheet" type="text/css" href="css/main.css"> 
-		<script type="text/javascript" src="js/jquery-1.7.1.js"></script>
-    	<script type="text/javascript" src="js/jquery-ui-1.7.2.custom.js"></script>
-    	<script type="text/javascript" src="js/jquery.class.js"></script>
-    	<script type="text/javascript" src="js/coverflow.class.js"></script>
-    	<script type="text/javascript" src="js/snapshot.class.js"></script>
-    	<script type="text/javascript" src="js/script.js"></script>
-    	<script>
-    		$(document).ready(function(){
-    	    //Unbind Image Dragging in html. Avoids drag problems on CoverFlow
-    		$('img').bind('dragstart', function(event) { event.preventDefault(); });
-       		var coverFlowElement = $('#coverFlow1');
-    		var coverFlow = new CoverFlow(coverFlowElement);
-        	}); 
-        	 /* Parameters */
-			this._snapshotClass = ".snapshot";
-			this._snapshotDistance = this._width / 7;
-			this._smoothness = 1;
-			this._timeAnimation = 300;
-        </script>	
 	</head>
 	<body>
 		<header>
-			<div>
-				<img src="img/gapilogo.gif" alt="logo de gapi" title="logo de gapi">
-			</div>
-			<div class="title">	
-				<h1>Grupo de Artistas Plásticos</h1>
-				<h3>Independientes de Villa Giardino</h3>
-			</div>
-			<div class="quotation">	
-				<p id="slogan"> "Uno debe de vez en cuando intentar cosas que están más allá de su capacidad"<br><span>Auguste Renoir</span><br></p>
+			<!--<div class="clearfix" id="banner">
+				<div id="titlewrap">
+					<h1>Grupo de Artistas Plásticos</h1>
+					<h2>Independientes de Villa Giardino</h2>
+				
+				<div id="logo">
+					<a href="index.html"><img src="img/gapilogoedit.gif" alt="logo gapi" title="logo gapi"></a>
+				</div>		
+			<div>-->
+			<div id="logowrapper">
+				<a href="index.html"><img src="img/gapilogoedit.gif" alt="logo gapi" title="logo gapi"></a>
 			</div>	
-		</header>
-			<section id="navbar">	
+		</header>		
+		<section> 
+			<div id="quotation">
+				<p> "Uno debe de vez en cuando intentar cosas que están más allá de su capacidad"<span style="font-style: normal">Auguste Renoir</span></p>
+			</div>
+		</section>
+		<section>
+			<div class="clearfix" id="navigationwrap">
 				<nav>
-					<a href="/gapi/">GAPI</a>
 					<a href="/artistas/">Artistas</a>
 					<a href="/exposiciones/">Exposiciones</a>
 					<a href="/agenda/">Agenda</a>
-					<a href="/talleres/">Talleres</a>
-					<a href="/blog/">Blog</a>
 				</nav>
-			</section>	
-		<section id="gallery">
-			<div id="coverFlow1" class="coverFlow">
-                <div class="snapshot">1</div>
-                <div class="snapshot">2</div>
-                <div class="snapshot">3</div>
-                <div class="snapshot">4</div>
-                <div class="snapshot">5</div>
-                <div class="snapshot">6</div>
-                <div class="snapshot">7</div>
-                <div class="snapshot">8</div>
-                <div class="snapshot">9</div>
-                <div class="snapshot">10</div>
-        	</div>
+			</div>	
+		</section>	
+		<section>
+			<div id="cover">
+				<img src="img/1.jpg">
+				<img src="img/2.jpg">
+				<img src="img/3.jpg">
+				<img src="img/4.jpg">
+				<img src="img/5.jpg">
+			</div>
         </section>
         <footer>
         	<h6>Developed by Design4Living</h6>
