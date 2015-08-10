@@ -1,0 +1,196 @@
+/* <!--drawing tools code developed by Marco Guglielmelli http://codepen.io/MarcoGuglielmelli/pen/omnvE*/
+@import url(http://fonts.googleapis.com/css?family=Roboto:500,400);
+@import url(http://fonts.googleapis.com/css?family=Lato:400,700,700italic);
+* { margin:0; 
+    padding:0; 
+    box-sizing: border-box;
+}
+body {
+}
+header {
+  background: url( http://i.imgur.com/RlgZmNi.jpg ) no-repeat center;
+  background-size: cover;
+  /*border:#000;*/
+  margin-top: 0;
+}
+h1 {
+  color:#000;
+  font-family: 'Roboto', sans-serif;
+  font-size: 4em;
+  font-variant: small-caps;
+  font-weight: 500;
+  margin-top: 0;
+  margin:auto;
+  padding: 0.5em;
+  text-align: center;
+  text-transform: uppercase;
+}
+span {
+  color: #333333;
+  font-variant: small-caps;
+  font-weight: 400;
+}
+p {
+ font-family: arial, sans-serif;
+ font-size: 1.2em;
+ margin: 0.618em;
+ text-align: center;
+ text-transform: none;
+}
+a {
+  color: #fff;
+  float: left;
+  font-family: 'Lato', sans-serif;
+  font-size: 1em;
+  font-style: none;
+  font-weight: 400;
+  margin: 1%;
+  padding: 1%;
+  text-transform: uppercase;
+  text-decoration: none;
+  width: 31.33%;
+}
+#mainnav a{
+  background: #000;
+}
+nav a:link{
+  font-style: inherit;
+} 
+nav a:visited{
+  color: #aaa;
+  font-style: inherit;
+}  
+nav a:hover{
+  color: #FFFFE6;
+  font-style: italic;
+  font-size: 1em;
+  
+}
+nav a:active{
+  color: #fff;
+  font-size: 1em;
+
+} 
+#navigationwrap {
+  background: #000;
+  background-size: cover;
+  border: 2px solid #000;
+  height:50px;
+  margin: 0px auto;
+  padding: 1px;
+  text-align: center;
+  width: 900px;
+}
+a img {
+  height:150px;
+  width: 150px;
+  margin: 40px auto;
+  position: absolute;
+}
+.column {
+  margin:47px;
+  height: 200px;
+  float: left;
+  width: 200px;
+}
+#imageswrap {
+  /*border: 1px solid #000;*/
+  margin: 50px auto;
+  width: 910px;
+}
+/*drawing tools code developed by Marco Guglielmelli http://codepen.io/MarcoGuglielmelli/pen/omnvE*/
+.contenitoreCanvas {
+  clear: both;
+}
+canvas {
+  border: 1px solid #7B899B;
+}
+.strumenti {
+  width: 223.5px;
+  float: left;
+  font-size: 14px;
+  font-variant: small-caps;
+  text-align: center;
+  padding: 10px 15px 10px 10px;
+}
+.strumenti button {
+  padding: 6px;
+  margin: 7px 2px;
+  font-variant: normal;
+  font-size: 12px;
+}
+.tools img {
+  padding: 2px;
+  border: 1px solid #FFF;
+}
+.tools img:hover {
+  border: 1px solid #000;
+}
+.tools img.selezionato {
+  border: 1px solid #000;
+}
+#boxSalvataggio {
+  display: none;
+}
+
+#boxSalvataggio img {
+  width: 250px;
+  height: 150px;
+}
+#previousimage img{
+  height: 270px;
+  margin: 2px auto;
+  width: 500px;
+}
+#previousimgwrap {
+  border: 1px solid #000;
+  height: 310px;
+  float:left;
+  margin: 2%;
+  padding: 1%;
+  width: 60%;
+}
+#textblock {
+  border: 1px solid #000;
+  float:right;
+  margin: 2%;
+  padding: 1%;
+  width: 30%;
+}
+#textblock p {
+  font-size: 1em;
+  font-family: arial, sans-serif;
+  text-align: left;
+}
+#bodywrapper {
+  border: 1px solid #000;
+  height: 350px;
+  margin: 20px auto;
+  width: 900px;
+}
+
+.clearfix:after {
+  visibility: hidden;
+  display: block;
+  font-size: 0;
+  content: " ";
+  clear: both;
+  height: 0;
+}  
+footer {
+  background: #eee;
+  background-size: cover;
+  margin: auto;
+  margin-bottom: 0px;
+  margin-top: 100em;
+} 
+h6 {
+  font-family: arial, sans-serif;
+  font-size: 1em;
+  margin-bottom: 0;
+  margin: auto;
+  padding: 1.5em;
+  text-align: center;
+}
+
+

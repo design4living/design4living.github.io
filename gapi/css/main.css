@@ -212,6 +212,8 @@ img:nth-child(5) {
 }
 footer {
     background: #eee;
+}
+h6 {    
     font-family: arial, sans-serif;
     font-size: 1em;
     font-weight: 200;

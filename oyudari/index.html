@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+	
+	<head>
+		<title>Oyudari Portfolio</title>
+	 	<link rel="stylesheet" type="text/css" href="css/reset.css">
+	 	<link rel="stylesheet" type="text/css" href="css/style.css">
+	 <!--drawing tools code developed by Marco Guglielmelli http://codepen.io/MarcoGuglielmelli/pen/omnvE-->
+	</head>
+	<body>
+		<header>
+			<!--<div id="banner">-->
+				<h1>Oyudari<span> - Portfolio</span></h1>
+			<!--</div>-->	
+		</header>
+		<section class="clearfix" id="navigationwrap">
+		<nav> 
+			<a href="previous.html"> Previous Projects</a>
+			<a href="current.html"> Current projects</a>
+			<a href="future.html"> Future Projects</a>
+		</nav>	
+		<section class="clearfix" id="imageswrap">
+			<div class="column">
+				<a href="previous.html"><img src="img/previous.jpg"></a>
+			</div>	
+			<div class="column">	
+				<a href="current.html"><img src="img/current.jpg"></a>
+			</div>	
+			<div class="column">	
+				<a href="future.html"><img src="img/future.jpg"></a>
+			</div>	
+		</section>
+		<section id="instructions">
+			<p>Please use the drawing tools bellow to share your ideas with us</p>
+		</section>	
+		<section>
+			<!-- drawing tools code developed by Marco Guglielmelli http://codepen.io/MarcoGuglielmelli/pen/omnvE-->
+			<!-- barra strumenti - seleziona colore -->
+  			<div class="tools"><p>
+    		select colour</p><br>
+    			<img id="rosso" src="img/rosso.jpg" alt="rosso" onclick="modificaColore('rgb(203,17,18)', this)">
+    			<img id="blu" src="img/blu.jpg" alt="blu" onclick="modificaColore('rgb(23,17,203)', this)"> 
+    			<img id="verde" src="img/verde.jpg" alt="verde" onclick="modificaColore('rgb(12,167,78)', this)">
+  			</div>
+  	<!-- barra strumenti - seleziona spessore -->
+  			<div class="tools"><p>
+    		select thickness</p><br>
+    			<img src="img/piccolo.jpg" alt="piccolo" onclick="modificaSpessore(1, this)">
+    			<img src="http://www.marcoguglielmelli.it/Codepen/Canvas/imgs/medio.jpg" alt="medio" onclick="modificaSpessore(5, this)"> 
+    			<img src="http://www.marcoguglielmelli.it/Codepen/Canvas/imgs/grande.jpg" alt="grande" onclick="modificaSpessore(10, this)">
+  			</div>
+  	<!-- barra strumenti - canvas -->
+  			<div class="canvas conteainer">
+    			<canvas id="progdisegno" width="500" height="300"></canvas>
+  			</div>
+  	<!-- barra strumenti - salva/pulisci -->
+  			<div class="tools">
+    			<button onclick="salva()">save</button>
+    			<button onclick="pulisci()">reset</button>
+    				<div id="boxSalvataggio">
+      					<img id="imgSalvataggio"><br>
+      					Right click to save
+    				</div>
+  			</div>
+  		</section>	
+		<footer>
+			<h6> Oyudari 2015 </h6>
+		</footer>
+		<script src=“java/interaction.js” type=“text/javascript"></script>
+
+	</body>
+	
+</html>
