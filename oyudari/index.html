@@ -14,11 +14,12 @@
 			<!--</div>-->	
 		</header>
 		<section class="clearfix" id="navigationwrap">
-		<nav> 
-			<a href="previous.html"> Previous Projects</a>
-			<a href="current.html"> Current projects</a>
-			<a href="future.html"> Future Projects</a>
-		</nav>	
+			<nav> 
+				<a href="previous.html"> Previous Projects</a>
+				<a href="current.html"> Current projects</a>
+				<a href="future.html"> Future Projects</a>
+			</nav>
+		</section>
 		<section class="clearfix" id="imageswrap">
 			<div class="column">
 				<a href="previous.html"><img src="img/previous.jpg"></a>
@@ -36,11 +37,11 @@
 		<section>
 			<!-- drawing tools code developed by Marco Guglielmelli http://codepen.io/MarcoGuglielmelli/pen/omnvE-->
 			<!-- barra strumenti - seleziona colore -->
-  			<div class="tools"><p>
-    		select colour</p><br>
-    			<img id="rosso" src="img/rosso.jpg" alt="rosso" onclick="modificaColore('rgb(203,17,18)', this)">
-    			<img id="blu" src="img/blu.jpg" alt="blu" onclick="modificaColore('rgb(23,17,203)', this)"> 
-    			<img id="verde" src="img/verde.jpg" alt="verde" onclick="modificaColore('rgb(12,167,78)', this)">
+  			<div class="tools">
+  				<p>select colour</p><br>
+	    			<img id="rosso" src="img/rosso.jpg" alt="rosso" onclick="modificaColore('rgb(203,17,18)', this)">
+	    			<img id="blu" src="img/blu.jpg" alt="blu" onclick="modificaColore('rgb(23,17,203)', this)"> 
+	    			<img id="verde" src="img/verde.jpg" alt="verde" onclick="modificaColore('rgb(12,167,78)', this)">
   			</div>
   	<!-- barra strumenti - seleziona spessore -->
   			<div class="tools"><p>
@@ -55,8 +56,8 @@
   			</div>
   	<!-- barra strumenti - salva/pulisci -->
   			<div class="tools">
-    			<button onclick="salva()">save</button>
-    			<button onclick="pulisci()">reset</button>
+	    			<button onclick="salva()">save</button>
+	    			<button onclick="pulisci()">reset</button>
     				<div id="boxSalvataggio">
       					<img id="imgSalvataggio"><br>
       					Right click to save
