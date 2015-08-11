@@ -210,6 +210,9 @@ img:nth-child(5) {
 #cover + footer {
     margin: 10px;
 }
+#previousimage img {
+    width: 300px;
+}
 footer {
     background: #eee;
 }
