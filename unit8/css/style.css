@@ -11,12 +11,6 @@ body {
 	font-size: 16px;
 	background: ;
 }
-ul {
-	display: inline-block;
-	list-style-type: none;
-	margin: 0;
-	padding: 0;
-}
 h1 {
     color: #A31947;
     font-family: 'Merriweather', serif;
@@ -89,7 +83,7 @@ footer {
     color: #fff;
     display: inline-block;
     font-family: 'Open Sans', sans-serif;
-    float: left;
+    
     font-size: 1em;
     font-weight: 400;
     margin: 1%;
@@ -129,19 +123,19 @@ footer {
 }
 #navwrap {
     /*background: #819;*/
-    /*border: 1px solid #000;*/
-    height: 7em;
+    display: inline-block;
+    border: 1px solid #000;
+    height: 9em;
     width: 100%;
 }
 #navwrapper {
     /*background: #689;*/
-    /*border: 1px solid #000;*/
-    float: left;
-    height: 5em;
+    border: 1px solid #000;
+    display: inline-block;
+    height: 7em;
     margin: 1%;
-    margin-bottom: 2px;
     padding: 0;
-    width: 57%;
+    width: 98%;
 }
 #navwrapper a {
     color: #005300;
@@ -149,10 +143,10 @@ footer {
     font-size: 1.2em;
     float: left;
     margin: 1%;
-    padding: 2%;
+    padding: 2% 5%;
     text-align: center;
     text-decoration: none;
-    width: 10.6%;
+   
 }
 #navwrapper a:link {
     font-style: inherit;
@@ -172,27 +166,9 @@ footer {
     color: #004500;
     font-weight: bolder;
 }
-#socialicons {
-    /*background: #777;*/
-    /*border: 1px solid #000;*/
-    display: inline;
-    float: right;
-    height: 5em;
-    margin: 1%;
-    padding: 0%;
-    width: 37%;
-}
-#socialicons img {
-    display: inline;
-    float: right;
-    height: auto;
-    margin: 1%;
-    padding: 2%;
-    text-align: center;
-    width: 1.6em;
-}
 #photos {
   /* Prevent vertical gaps */
+  width: 100%;
   line-height: 0;
   border-top: 4px solid #FFFFE6;
   border-bottom: 4px solid #FFFFE6;
@@ -206,13 +182,50 @@ footer {
 #photos img {
   /* Just in case there are inline attributes */
   width: 100% !important;
-  height: auto !important;
-  z-index: -1;
+}
+#photo-wrap {
+  position:relative;
+}
+#photo-wrap #bottom {
+  width: 100%;
+  background-color: #fff;
+  height: 9em;
+  bottom: 0;
+  left: 0;
+  position: absolute;
+}
+#phrase {
+  color: #005300;
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.2em;
+  float: left;
+  margin: 0%;
+  padding: 0;
+  text-align: center;
+  width: 50%;
+}
+#socialicons {
+    /*background: #777;*/
+    border: 1px solid #000;
+    display: inline-block;
+    float: right;
+    height: 5em;
+    margin: 0%;
+    padding: 0%;
+    width: 50%;    
+}
+#socialicons img {
+    display: inline-block;
+    /*height: auto;*/
+    margin: 1%;
+    padding: 2% 2%;
+    text-align: center;
+    width: 1.7em;
 }
 #iconnavwrap {
-	border: 1px solid #000;
-    height: 20em;
-    visibility: hidden;
+	border: none;
+  height:0;
+  visibility: hidden;
 }
 .clearfix:after {
 	clear: both;
@@ -222,9 +235,22 @@ footer {
     height: 0;
     visibility: hidden;
 }    
-@media screen and (max-width: 1200px) {
+@media screen and (min-width: 1000px) and (max-width: 1200px) {
   body {
     font-size: 15px;
+  }
+  #topwrapper {
+    float: none;
+    display: block;
+  }
+  #languagesmenuwrap, #title {
+    float: none;
+    /*height: auto;*/
+    width: 100%;
+  }
+  #navwrapper, #socialicons {
+    float: none;
+    width: 90%;
   }
   #photos {
   -moz-column-count:    4;
@@ -232,10 +258,22 @@ footer {
   column-count:         4;
   }
 }
-@media screen and (max-width: 1000px) {
+@media screen and (min-width: 800px) and (max-width: 1000px) {
   body {
     font-size: 14px;
   }
+  #topwrapper {
+    float: none;
+  }
+  #languagesmenuwrap, #title {
+    float: none;
+    height: auto;
+    width: 100%;
+  }
+  #navwrapper, #socialicons {
+    float: none;
+    width: 90%;
+  }  
   #photos {
   -moz-column-count:    3;
   -webkit-column-count: 3;
@@ -246,23 +284,22 @@ footer {
   body {
     font-size: 12px;
   }
+  #menu {
+    display: none;
+  }
   #topwrapper {
     background: #004500;
     height: auto;
-    width:100%;
+    width: 90%;
   }
-  #languagesmenuwrap {
+  #languagesmenuwrap, #title {
     float: none;
     height: auto;
     width: 100%;
   }
-  #navwrapper {
+  #navwrapper, #socialicons {
     float: none;
-    height: auto;
-    width: 100%;
-  }
-  #socialicons {
-    
+    width: 90%;
   }
   #photos {
   -moz-column-count:    2;
