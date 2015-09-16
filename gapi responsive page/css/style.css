@@ -65,6 +65,7 @@ a{
 h6 {
 	font-size: 1em;
 	margin: 0.5em auto;
+	text-align: center;
 }
 p {
 	color: #333333;
@@ -74,7 +75,7 @@ footer {
 	/*border: 1px solid #000;*/
 	font-size: 1em;
 	height: 2em;
-	margin: 2em auto;
+	margin: 2em;
 	padding: .618em;
 	text-align: center;
 	width: 100%;
@@ -102,11 +103,13 @@ footer {
 	width: 31%;
 }
 #column1news {
+	border: 1px solid #000;
 	float: left;
 	margin: 0;
 	width: 45%;
 }
 #column2news {
+	border: 1px solid #000;
 	float: right;
 	margin: 0;
 	width: 45%;
@@ -232,12 +235,15 @@ footer {
 #bodycontentwrapper {
 	/*border: 1px solid #000;*/
 	float: left;
+	height: 1200px;
+	overflow: scroll;
 	width: 100%;
 }
 #artistasgaleria {
 	/*border: 1px solid #000;*/
 	display: inline;
 	float: left;
+	height: 1200px;
 	margin-top: 2em; 
 	margin: auto;
 	width: 100%
@@ -248,9 +254,9 @@ footer {
 #noticiasbody {
 	display: inline;
 	float: left;
-	margin-top: 2em; 
+	margin-top: 2em auto; 
 	margin: auto;
-	width: 100%
+	width: 95%
 }
 #feedcontrol {
 	background: #7A199A;
