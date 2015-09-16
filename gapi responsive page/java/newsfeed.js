@@ -1,5 +1,5 @@
 function load() {
-var feed ="http://cultura.cordoba.es/es/agenda/hoy/feed.xml";
+var feed ="https://twitter.com/statuses/user_timeline/61775133.rss";
 new GFdynamicFeedControl(feed, "feedControl");
 
 }
