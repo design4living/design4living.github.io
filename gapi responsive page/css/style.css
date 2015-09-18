@@ -80,6 +80,11 @@ footer {
 	text-align: center;
 	width: 100%;
 }
+textarea {
+	height: 200px;
+	width: 98%;
+	margin-top: 15%;
+}
 footer h6 {
 	font-size: 1em;
 	margin: auto;
@@ -288,6 +293,35 @@ footer h6 {
 	
 	color: #9CADD0;
 }
+#format {
+	/*border: 1px solid #000;*/
+	display: inline;
+	float: left;
+	margin: 1.5%;
+	text-align: left;
+	width: 45%;
+}
+#format p, h6 {
+	line-height: 1.2em;
+	text-align: left;
+	font-size: 1em;
+}
+#areadetexto {
+	/*border: 1px solid #000;*/
+	float: left;
+	margin: 1% auto;
+	width: 45%;
+}
+#areadetexto h6 {
+	margin: 2%;
+	text-align: center;
+}
+#enviardatos {
+	/*border: 1px solid #000;*/
+	text-align: right;
+	width: 93%;
+}
+
 @media screen and (min-width: 901px) and (max-width: 1100px) {
   	body {
   		font-size: 14px;
@@ -410,6 +444,11 @@ footer h6 {
 		font-weight: bold;
 		margin: 1px;
 		padding: 3% 3%;
+	}
+	#areadetexto, #enviardatos {
+		float: none;
+		display: block;
+		width: 100;
 	}	
 }   	 
 @media screen and (min-width: 501px) and (max-width: 700px) {
@@ -495,6 +534,11 @@ footer h6 {
 		float: none;
 		margin-top: 1em auto; 
 		width: 90%;
+	}
+	#areadetexto, #enviardatos {
+		float: none;
+		display: block;
+		width: 100;
 	}
 }
 @media screen and (min-width: 300px) and (max-width: 500px) {
@@ -584,5 +628,10 @@ footer h6 {
 		float: none;
 		margin-top: 1em auto; 
 		width: 90%;
+	}
+	#areadetexto, #enviardatos {
+		float: none;
+		display: block;
+		width:100%;
 	}
 }          
