@@ -1,0 +1,142 @@
+@import url(https://fonts.googleapis.com/css?family=PT+Serif:700,400);
+@import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,300italic);
+@import url("http://www.google.com/uds/solutions/dynamicfeed/gfdynamicfeedcontrol.css");
+body {
+	background: -webkit-linear-gradient(#fff, #002E4C); /* For Safari 5.1 to 6.0 */
+  	background: -o-linear-gradient(#fff, #002E4C); /* For Opera 11.1 to 12.0 */
+  	background: -moz-linear-gradient(#fff, #002E4C); /* For Firefox 3.6 to 15 */
+  	background: linear-gradient(#fff, #002E4C); /* Standard syntax */
+	font-size: 16px;
+	font-family: ;
+}
+header {
+	background: center;
+	border: 1px solid black;
+	height: 20%;
+	margin: auto;
+	text-align: center;
+	width: 100%;
+}
+nav {
+	background: ;
+	border: 1px solid black;
+	width: ;
+}
+footer {
+	background: #CCD5DB;
+	border: 1px solid black;
+	height: 2%;
+	margin: auto;
+	margin-bottom: 0;
+	position: relative;
+	text-align: center;
+	width: 100%;
+}
+a {
+	color: #002E4C;
+	margin: 0;
+	padding: 1% 5%;
+	text-decoration: none;
+}
+p {
+	font-size: 1em;
+}
+img {
+
+}
+h4 {
+	font-size: 1.618em;
+	color:;
+}
+h5 {
+	font-size: 1em;
+	font-weight: bolder;
+}
+h6 {
+	font-size: 0.8em;
+	color: #002E4C;
+}
+.clearfix:after {
+	clear: both;
+    content: " ";
+    display: block;
+  	font-size: 0;
+    height: 0;
+    visibility: hidden;
+}
+#bodywrapper {
+	background: #fff;
+	border: 1px solid black;
+	height: 1550px;
+	margin: auto;
+	width: 80%;
+}
+#languages {
+	background: #002E4C;
+	border: 1px solid black;
+	padding: 1%;
+	text-align: right;
+	width: 98%;
+}
+#languages a{
+	color: #fff;
+	font-size: 0.8em;
+	font-weight: bolder;
+}
+#logo {
+	border: 1px solid black;
+	float: left;
+	height: 80%;
+	width: 30%;
+}
+#description {
+	border: 1px solid black;
+	color: #335870;
+	float: right;
+	font-family: 'Source Sans Pro', sans-serif;
+	font-style: italic;
+	height: 70%;
+	line-height: 1.5em;
+	padding: 1.5%;
+	text-align: left;
+	width: 64.5%;
+}
+#mainnavigation {
+	background: #335870;
+	border: 1px solid black;
+	font-family: 'PT Serif', serif;
+	padding: 1%;
+	text-align: right;
+	width: 98%;
+}
+#mainnavigation a{
+	color: #fff;
+	font-size: 1.2em;
+}
+
+#bodycolumns {
+ 	border: 1px solid black;
+ 	height: 60%;
+ 	width: 98%;
+} 
+#column1, #column2, #column3 {
+	border: 1px solid black;
+	float: left;
+	margin: auto;
+	padding: 1.5%;
+	width: 30%;
+}
+#revisoriafiscal, #auditoria, #outsourcing, #consultoria, #impuestos {
+	border: 1px solid black;
+	color: #0A1F33;
+	font-family: 'Source Sans Pro', sans-serif;
+	line-height: 1.5em;
+	margin-bottom: 3%;
+	padding: 2%;
+}
+#portafolio, #proexport {
+	border: 1px solid black;
+	margin-bottom: 3%;
+	padding: 2%;
+}
+
